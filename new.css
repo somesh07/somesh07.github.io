@@ -7,7 +7,7 @@ body{
 	padding: 0;
 	background-color: white;
 	font-family:Verdana,sans-serif;
-	box-sizing: border-box;
+	
 
 }
 .main{
@@ -85,19 +85,10 @@ a:hover,a:active {
 	height: 100vh;
 	background-color:#FAEBD7;
 	display:flex;
-	flex-direction: row;
-    align-items: center;
-   
-    
-
-	
-}
-.aboutcontainer h2{
-	text-align: center;
-	color:black;
+	flex-direction: row;	
 }
 .aboutleft{
-	display: flex;
+    display: flex; 
 	height:100vh;
 	width: 40vw;
 	margin: auto;
@@ -122,7 +113,7 @@ a:hover,a:active {
 	font-style:italic;
 	line-height:1;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 
 
 }
@@ -268,7 +259,7 @@ a:hover,a:active {
 	margin: auto;
 
 }
-h1,h2,h3,h4,h5,h6
+h1,h2,h4,h5
  {
     font-family:"Segoe UI",Arial,sans-serif;
     letter-spacing: 2px;
@@ -518,41 +509,44 @@ h5{
 
 .aboutcontainer{
 	 
-        width:100% ;
+        width:100vw;
         
-        height:100% ;
+        height:100vh;
+        display: flex;
+        flex-direction: row;
 
 }
 .aboutright{
-	width: 60%;
-	height: 100%;
+	width: 60vw;
+	height: 100vh;
+	
+	
+
+}
+.aboutmain{
+	width: 60vw;
+	height: 100vh;
 
 }
 .aboutleft{
+	width: 40vw;
+	height:100vh;
 	
-	height:100%;
-	width: 40%;
 }
 
 .rightimage{
-	width: 100%;
-	
-	
-	align-content: center;
+	width: 40vw;
+	height: 100vh;
 
 }
 
 .rightimage img{
-	width: 100%;
-	align-content: center;
+	width: 40vw;
+	height: 100vh;
 
 
 }
-.aboutmain{
-	width: 100%;
-	height: 100%;
 
-}
 .containereducation{
 	 
      width: 100%;
@@ -583,6 +577,7 @@ h5{
         
         height: 100%;
     }
+
 
 .large{
 		font-size: 1.3rem;
@@ -644,39 +639,41 @@ h5{
 
 .aboutcontainer{
 	 
-        width:100% ;
+        width:100vw;
         
-        height:100% ;
+        height:100vh ;
+        display: flex;
+        flex-direction: row;
 
 }
 .aboutright{
-	width: 60%;
-	height: 100%;
+	width: 60vw;
+	height: 100vh;
+	
+	
+
+}
+.aboutmain{
+	width: 60vw;
+	height: 100vh;
 
 }
 .aboutleft{
+	width: 40vw;
+	height:100vh;
 	
-	height:100%;
-	width: 40%;
 }
 
 .rightimage{
-	width: 100%;
-	
-	
-	align-content: center;
+	width: 40vw;
+	height: 100vh;
 
 }
 
 .rightimage img{
-	width: 100%;
-	align-content: center;
+	width: 40vw;
+	height: 100vh;
 
-
-}
-.aboutmain{
-	width: 100%;
-	height: 100%;
 
 }
 .containereducation{
@@ -693,33 +690,3 @@ h5{
 }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
